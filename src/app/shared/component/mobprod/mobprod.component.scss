@@ -1,3 +1,15 @@
+// *{
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+
+body{
+    
+//    width: 100vw;
+    overflow-x: hidden;
+}
+
 .imgContainer{
     height : 400px;
     img{
@@ -6,6 +18,8 @@
         object-fit: cover;
     }
 }
+
+
 
 .notavl{
     filter: blur(1px) grayscale(1);
